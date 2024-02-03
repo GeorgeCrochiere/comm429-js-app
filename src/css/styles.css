@@ -1,3 +1,29 @@
-h2 {
-    color: red;
+body {
+    max-width: 90%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form>* {
+    margin-left: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-top: auto;
+    margin-bottom: 1rem;
 }
