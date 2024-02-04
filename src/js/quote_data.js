@@ -26,7 +26,7 @@ const data = [
     },
     {
         "author": "Travis Kalanick",
-        "quote": "Fear is the disease. Hustle is the antidote",
+        "quote": "Fear is the disease. Hustle is the antidote.",
         "category": "Motivational"
     },
     {
@@ -102,52 +102,52 @@ const data = [
     {
         "author": "Isaac Asimov",
         "quote": "The saddest aspect of life right now is that science fiction gathers knowledge faster than society gathers wisdom.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Philip K. Dick",
         "quote": "Reality is that which, when you stop believing in it, doesn't go away.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Arthur C. Clarke",
         "quote": "Any sufficiently advanced technology is indistinguishable from magic.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Ursula K. Le Guin",
         "quote": "Science fiction is not predictive; it is descriptive.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Ray Bradbury",
         "quote": "I don’t try to describe the future. I try to prevent it.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "H.G. Wells",
         "quote": "The past is but the beginning of a beginning, and all that is and has been is but the twilight of the dawn.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Frank Herbert",
         "quote": "The mystery of life isn't a problem to solve, but a reality to experience.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "William Gibson",
         "quote": "The future is already here—it's just not very evenly distributed.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Octavia E. Butler",
         "quote": "In order to rise from its own ashes, a phoenix first must burn.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Neil Gaiman",
         "quote": "Fairy tales are more than true: not because they tell us that dragons exist, but because they tell us that dragons can be beaten.",
-        "category": "Sci Fi"
+        "category": "Sci-Fi"
     },
     {
         "author": "Socrates",
@@ -348,5 +348,60 @@ const data = [
         "author": "Clint Eastwood",
         "quote": "Go ahead, make my day.",
         "category": "Movie"
-    }
+    },
+    {
+        "author": "TF2 Spy, Team Fortress 2",
+        "quote": "Right behind you!",
+        "category": "Video Game"
+    },
+    {
+        "author": "Golden Freddy, Five Nights at Freddy's",
+        "quote": "IT'S ME",
+        "category": "Video Game"
+    },
+    {
+        "author": "Niko Belic, GTA IV",
+        "quote": "War is where the young and stupid are tricked by the old and bitter into killing each other.",
+        "category": "Video Game"
+    },
+    {
+        "author": "GR-74, Ghostrunner",
+        "quote": "My name... is Jack!",
+        "category": "Video Game"
+    },
+    {
+        "author": "Big Smoke, GTA San Andres",
+        "quote": "I'll have two number 9's, a number 9 large, a number 6 with extra dip, a number 7, two number 45's, one with cheese, and a large soda.",
+        "category": "Video Game"
+    },
+    {
+        "author": "G-Man, Half-Life 2",
+        "quote": "Rise and shine, Mister Freeman, rise and … shine. Not that I wish … to imply that you have been sleeping on … the job. No one is more deserving of a rest, and all the effort in the world would have gone to waste until … well … let’s just say your hour has come again. The right man in the wrong place can make all the difference … in the world. So, wake up, Mister Freeman. Wake up and … smell the ashes.",
+        "category": "Video Game"
+    },
+    {
+        "author": "Link, Legend of Zelda",
+        "quote": "...",
+        "category": "Video Game"
+    },
+    {
+        "author": "Cave Johnson, Portal 2",
+        "quote": "When life gives you lemons, don't make lemonade. Make life take the lemons back! Get mad! I don't want your damn lemons, what the hell am I supposed to do with these? Demand to see life's manager! Make life rue the day it thought it could give Cave Johnson lemons! Do you know who I am? I'm the man who's gonna burn your house down! With the lemons! I'm gonna get my engineers to invent a combustible lemon that burns your house down! *cough* *cough*",
+        "category": "Video Game"
+    },
+    {
+        "author": "Peppy Hare, Star Fox 64",
+        "quote": "Do a barrel roll!",
+        "category": "Video Game"
+    },
+    {
+        "author": "Every Pokemon Professor, Pokemon",
+        "quote": "Are you a boy or a girl?",
+        "category": "Video Game"
+    },
+    {
+        "author": "Connor, Detroit Become Human",
+        "quote": "28 stab wounds!",
+        "category": "Video Game"
+    },
 ];
