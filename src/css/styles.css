@@ -1,11 +1,20 @@
+:root {}
+
 body {
     max-width: 90%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
-header,
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 25rem);
+    justify-content: center;
+}
+
+header>div,
 form {
     display: flex;
     flex-direction: row;
@@ -26,4 +35,23 @@ hr {
 footer {
     margin-top: auto;
     margin-bottom: 1rem;
+}
+
+h1,
+h4 {
+    margin-bottom: 1rem;
+}
+
+blockquote {
+    display: flex;
+    width: 25rem;
+    padding-right: 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+div.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }

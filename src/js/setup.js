@@ -1,10 +1,12 @@
-setSelector();
-
 let dataCategories = [];
 data.forEach((entry) => {
     dataCategories.push(entry.category);
 });
 dataCategories = dataCategories.filter(unique);
+
+document.querySelector("h4").innerText = `Select random quotes out of a list of ${data.length} options!`;
+
+setSelector();
 
 // Filter function for unique values
 function unique(value, index, array) {
