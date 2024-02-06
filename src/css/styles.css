@@ -1,5 +1,6 @@
 :root {
     --quoteWidth: 20rem;
+    --text-green: #85ffbd;
 }
 
 body {
@@ -78,5 +79,9 @@ div.desc>cite {
 }
 
 div.desc>p {
-    color: var(--b-link);
+    color: var(--text-green);
+}
+
+label {
+    display: none;
 }
