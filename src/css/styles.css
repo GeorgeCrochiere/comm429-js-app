@@ -1,4 +1,6 @@
-:root {}
+:root {
+    --quoteWidth: 20rem;
+}
 
 body {
     max-width: 90%;
@@ -10,7 +12,8 @@ body {
 
 section {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 25rem);
+    grid-template-columns: repeat(auto-fill, var(--quoteWidth));
+    column-gap: 1rem;
     justify-content: center;
 }
 
@@ -21,15 +24,21 @@ form {
     justify-content: space-around;
 }
 
+blockquote>div.desc>*,
+blockquote>div>button {
+    height: max-content;
+    margin-bottom: 0px;
+}
+
+blockquote>div>button {
+    margin-left: 1rem;
+    margin-right: -0.5rem;
+}
+
 form>* {
     margin-left: 0.5rem;
     margin-top: auto;
     margin-bottom: auto;
-}
-
-hr {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
 }
 
 footer {
@@ -38,20 +47,36 @@ footer {
 }
 
 h1,
-h4 {
+h4,
+hr {
     margin-bottom: 1rem;
+}
+
+h4,
+hr {
+    margin-top: 1rem;
 }
 
 blockquote {
     display: flex;
-    width: 25rem;
+    width: var(--quoteWidth);
     padding-right: 1rem;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--b-bg-2);
+    border-radius: 0px 0px 1.5rem 0px;
 }
 
-div.desc {
+blockquote>div {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+div.desc>cite {
+    color: var(--b-focus);
+}
+
+div.desc>p {
+    color: var(--b-link);
 }
