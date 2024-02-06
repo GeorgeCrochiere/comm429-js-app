@@ -25,11 +25,35 @@ document.querySelectorAll("button")[1].addEventListener("click", () => {
 
 const quoteFactory = (quoteObject) => {
     const blockQuote = document.createElement("blockquote");
-    blockQuote.innerHTML =
-        `<p>"${quoteObject.quote}"</p>
+    // if (quoteObject.quote.length > 200) {
+    //     blockQuote.innerHTML =
+    //         `<div>
+    //         <details>
+    //             <summary>"${quoteObject.quote.substring(0, 200)}..."</summary>
+    //             <p>"...${quoteObject.quote.substring(200)}"</p>
+    //         </details>
+    //         <button>X</button>
+    //     </div>`;
+    // } else {
+    // blockQuote.innerHTML =
+    //     `<div>
+    //             <p>"${quoteObject.quote}"</p>
+    //             <button>X</button>
+    //         </div> `;
+    // }
+    blockQuote.innerHTML = `
+    <div>
+        <p>"${quoteObject.quote}"</p>
+        <button>X</button>
+    </div> `;
+    blockQuote.innerHTML += `
     <div class="desc">
         <cite>-${quoteObject.author}</cite>
         <p>${quoteObject.category}</p>
     </div>`;
+    blockQuote.querySelector("button").addEventListener("click", () => {
+        event.preventDefault();
+        blockQuote.remove();
+    });
     return blockQuote;
 }
