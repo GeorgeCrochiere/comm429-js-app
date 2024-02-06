@@ -80,6 +80,8 @@ div.desc>cite {
 
 div.desc>p {
     color: var(--text-green);
+    min-width: max-content;
+    margin-left: 1rem;
 }
 
 label {
