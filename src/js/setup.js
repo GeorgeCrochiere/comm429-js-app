@@ -4,7 +4,7 @@ data.forEach((entry) => {
 });
 dataCategories = dataCategories.filter(unique);
 
-document.querySelector("h4").innerText = `Select random quotes out of a list of ${data.length} options!`;
+document.querySelector("h2").innerText = `Select random quotes out of a list of ${data.length} options!`;
 
 setSelector();
 

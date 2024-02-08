@@ -1,5 +1,5 @@
 :root {
-    --quoteWidth: 20rem;
+    --quoteWidth: 19.5rem;
     --text-green: #85ffbd;
 }
 
@@ -48,14 +48,18 @@ footer {
 }
 
 h1,
-h4,
+h2,
 hr {
     margin-bottom: 1rem;
 }
 
-h4,
+h2,
 hr {
     margin-top: 1rem;
+}
+
+h2 {
+    font-size: 1rem;
 }
 
 blockquote {
